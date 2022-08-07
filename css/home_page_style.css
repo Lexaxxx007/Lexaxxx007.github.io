@@ -1303,7 +1303,7 @@ h6 {
   text-decoration: none;
 }
 
-.menu_item {
+.menu_item, a.menu_item:visited {
   color: black;
 }
 
