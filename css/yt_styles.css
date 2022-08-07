@@ -781,6 +781,16 @@ h6 {
   gap: 10%;
 }
 
+.footer_nav_Subscriptions_block_ul_block ul li a,
+.footer_nav_Subscriptions_block_ul_block ul li a:visited {
+  color: white;
+}
+
+.footer_nav_Sitenavigation_block_ul_block ul li a,
+.footer_nav_Sitenavigation_block_ul_block ul li a:visited {
+  color: white;
+}
+
 .footer_nav_Subscriptions_block ul > li {
   font-family: "Gotham Pro";
   font-style: normal;
@@ -792,9 +802,9 @@ h6 {
   text-decoration: none;
 }
 
-.footer_nav_Subscriptions_block ul > li > a:visited {
+/* .footer_nav_Subscriptions_block ul > li > a:visited {
   color: #ffffff;
-}
+} */
 
 .footer_nav_Sitenavigation_block {
   display: flex;
@@ -812,9 +822,9 @@ h6 {
   padding-bottom: 10px;
 }
 
-.footer_nav_Sitenavigation_block ul > li > a:visited {
+/* .footer_nav_Sitenavigation_block ul > li > a:visited {
   color: #ffffff;
-}
+} */
 
 .footer_nav_links {
   display: flex;
@@ -849,6 +859,14 @@ h6 {
   background-color: #ffffff;
 }
 
+.menu_item,
+a.menu_item:visited {
+  color: black;
+}
+
+.display_menu_item {
+  color: black;
+}
 /* ADAPTIVE//////////////////////////////////////////////////////////////////////////////////////////// */
 
 @media (max-width: 1206.98px) {
