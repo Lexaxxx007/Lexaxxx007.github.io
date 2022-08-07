@@ -1303,11 +1303,11 @@ h6 {
   text-decoration: none;
 }
 
-.menu_item, a.menu_item:visited {
+.hide_menu_item a {
   color: black;
 }
 
-.display_menu_item {
+.display_menu_item a {
   color: black;
 }
 
