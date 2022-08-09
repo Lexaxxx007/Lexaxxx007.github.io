@@ -134,6 +134,19 @@ h6 {
   border-left: 5px solid transparent;
 }
 
+.language_arrow {
+  top: 9px;
+  right: -14px;
+}
+
+.footer_language_arrow {
+  border-top: 5px solid #ffffff;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  top: 9px;
+  right: -14px;
+}
+
 .menu_arrow {
 }
 
@@ -337,7 +350,7 @@ h6 {
   position: relative;
 }
 
-.language_link::after,
+/* .language_link::after,
 .language_link::before {
   content: "";
   position: absolute;
@@ -355,7 +368,7 @@ h6 {
 .language_link::before {
   transform: rotate(40deg);
   left: 25px;
-}
+} */
 
 .main_tariff_block {
   margin-top: 70px;
@@ -854,7 +867,7 @@ h6 {
   color: #ffffff;
 }
 
-.language_link.white::after,
+/* .language_link.white::after,
 .language_link.white::before {
   background-color: #ffffff;
 }
@@ -866,7 +879,7 @@ a.menu_item:visited {
 
 .display_menu_item {
   color: black;
-}
+} */
 /* ADAPTIVE//////////////////////////////////////////////////////////////////////////////////////////// */
 
 @media (max-width: 1206.98px) {
@@ -876,6 +889,14 @@ a.menu_item:visited {
 
   .header_menu.active .header_menu_sub_flex {
     display: flex;
+  }
+
+  .header_menu.active .language_link {
+    display: none;
+  }
+
+  .header_menu.active .language_arrow {
+    display: none;
   }
 
   .hide_menu_item {
@@ -1157,7 +1178,7 @@ a.menu_item:visited {
   }
 
   .spoiler_title::after {
-    right: -23.5%;
+    right: -24%;
   }
 
   .faq_spoiler::after {
@@ -1177,6 +1198,20 @@ a.menu_item:visited {
 
   .footer_conteiner {
     padding: 0px 30px;
+  }
+}
+
+@media (max-width: 904.98px) {
+  .spoiler_title {
+    max-width: 80%;
+  }
+
+  .spoiler_title::before {
+    right: -25%;
+  }
+
+  .spoiler_title::after {
+    right: -23.5%;
   }
 }
 
@@ -1344,5 +1379,30 @@ a.menu_item:visited {
   }
 }
 
+@media (max-width: 662.98px) {
+  .spoiler_title::before {
+    right: -25%;
+  }
+
+  .spoiler_title::after {
+    right: -23%;
+  }
+}
+
+@media (max-width: 460.98px) {
+  .spoiler_title::after {
+    right: -22.5%;
+  }
+}
+
+@media (max-width: 380.98px) {
+  .spoiler_title::after {
+    right: -22%;
+  }
+}
+
 @media (max-width: 336px) {
+  .spoiler_title::after {
+    right: -21.5%;
+  }
 }
