@@ -127,6 +127,13 @@ h6 {
   margin-right: 120px;
 }
 
+.subcribe_list {
+  color: #000000;
+}
+
+.sub-subscribe_list a {
+  color: #000000;
+}
 .arrow {
   position: absolute;
   right: -13px;
@@ -271,10 +278,6 @@ h6 {
   background-color: #f7f7f7;
 }
 
-.header_submenu > li:hover .sub-subscribe_list {
-  display: block;
-}
-
 .sub-subscribe_list > li {
   font-family: "Gotham Pro";
   font-style: normal;
@@ -301,6 +304,38 @@ h6 {
   padding: 7px 20px;
 }
 
+/*///////touch adaptive/////////////*/
+
+body.touch .language_list {
+  padding: 0px;
+  margin-top: 25px;
+}
+
+body.touch .sub-subscribe_list {
+  padding: 0;
+  margin-top: 25px;
+}
+
+body.touch .footer_language_list {
+  padding: 0;
+  margin: 20px;
+}
+
+body.mouse .header_language > li:hover .language_list {
+  display: block;
+}
+
+body.mouse .header_submenu > li:hover .sub-subscribe_list {
+  display: block;
+}
+
+.sub_list {
+  display: none;
+}
+.sub_list.open {
+  display: block;
+}
+
 /* //////LANGUAGE_MENU///////// */
 
 .header_language li {
@@ -316,10 +351,6 @@ h6 {
   top: 7px;
   padding-top: 40px;
   border-radius: 16px;
-}
-
-.header_language > li:hover .language_list {
-  display: block;
 }
 
 .language_list > li {
