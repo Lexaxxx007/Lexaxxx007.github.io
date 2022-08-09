@@ -113,6 +113,7 @@ for (i = 0; i < forms.length; i++) {
       const activeBurger = document.querySelector(".header_burger.active");
       activeMenu.classList.remove("active");
       activeBurger.classList.remove("active");
+      body.classList.remove("lock");
     }
   });
 
