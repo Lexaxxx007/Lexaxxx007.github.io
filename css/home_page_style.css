@@ -2040,13 +2040,13 @@ a.menu_item:visited {
 
 @media (max-width: 460.98px) {
   .spoiler_title::after {
-    right: -22.5%;
+    right: -22%;
   }
 }
 
 @media (max-width: 380.98px) {
   .spoiler_title::after {
-    right: -22%;
+    right: -21.5%;
   }
 }
 
